@@ -45,4 +45,4 @@ module tt_um_calculator_chip
     end
   end
   
-endmodule: calculator_chip
+endmodule: tt_um_calculator_chip
