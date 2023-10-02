@@ -1,7 +1,7 @@
 // Code your design here
 
 
-module calculator_chip
+module tt_um_calculator_chip
   (input logic clock, Enter, Reset,
    input logic [7:0] NumIn,
    input logic [1:0] OpIn,
