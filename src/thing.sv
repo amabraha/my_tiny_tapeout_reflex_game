@@ -23,6 +23,7 @@ module tt_um_calculator_chip
   assign NumIn = ui_in;
   assign Enter = uio_in[2];
   assign uio_oe = 8'b0;
+  assign uio_out = 8'b0;
   
   enum logic {ME, NOTME}button;
   
