@@ -113,7 +113,7 @@ module player
 
 
 endmodule: player
-
+/*
 module TB();
     logic clock, reset;
     logic [7:0] buttons;
@@ -205,7 +205,7 @@ module TB();
         #5000 $finish;
     end
 endmodule: TB
-
+*/
 module tt_um_reflex_game
   (
    input  logic [7:0] ui_in,    // Dedicated inputs - connected to the input switches
