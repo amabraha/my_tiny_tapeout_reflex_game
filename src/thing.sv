@@ -73,9 +73,10 @@ module player
     enum logic[3:0] {RESET, START, CHECK} state;
 
     logic[31:0] timer;
+    //frequency = 20 Hz
     localparam T1 = 1;
-    localparam T2 = 200; //T2-T1 is how long we play the game for
-    localparam T3 = 210; //T3-T2 is how long we display the result signal
+    localparam T2 = 100; //T2-T1 is how long we play the game for
+    localparam T3 = 140; //T3-T2 is how long we display the result signal
     localparam T4 = T3+1;
 
     always_ff @(posedge clock) begin
