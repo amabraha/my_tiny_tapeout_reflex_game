@@ -220,5 +220,7 @@ module tt_um_reflex_game
 
     top DUT(.main_buttons(ui_in[7:0]), .main_lights(uo_out[7:0]), .correct_light(uio_out[1]), .incorrect_light(uio_out[2]), .start(uio_in[0]), .clock(clk), .reset(~rst_n));
     assign uio_oe = 8'b0000_0110;
+    assign uio_out[0] = 1'b0;
+    assign uio_out[7:3] = 5'b0;
 
 endmodule: tt_um_reflex_game
